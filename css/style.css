@@ -540,6 +540,7 @@
       background-color: var(--back-light);
       font-family: inherit;
       font-size: 16px;
+      font-weight: 500;
       line-height: 1.6;
       text-align: center;
       border: none;
@@ -601,7 +602,8 @@
     opacity: 0;
   }
 
-  .portfolio-card:hover .portfolio-overlay {
+  .portfolio-card:hover .portfolio-overlay,
+  .portfolio-card-link:focus .portfolio-overlay {
     transform: translateY(0);
     opacity: 1;
   }
